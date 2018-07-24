@@ -77,6 +77,7 @@ var particleNumber = {
 			p.y += (pPos.y - p.y) * .3;
 			p.draw(particleNumber.ctx);
 		}
+		
 		}
 	},
 	animate: function() {
